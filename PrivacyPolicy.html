@@ -1,486 +1,927 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<title>SpaceWise — Privacy Policy</title>
-
-<meta
-    name="description"
-    content="SpaceWise Privacy Policy"
-/>
-
-<style>
-:root {
-    --blue: #1677ff;
-    --ink: #10213b;
-    --muted: #63728b;
-    --bg: #f5f9ff;
-    --line: #e4ecf7;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "SF Pro Display",
-        "SF Pro Text",
-        "Segoe UI",
-        sans-serif;
-
-    color: var(--ink);
-
-    background:
-        radial-gradient(
-            circle at 10% 0%,
-            #dceeff,
-            transparent 30%
-        ),
-        radial-gradient(
-            circle at 90% 5%,
-            #e8f3ff,
-            transparent 28%
-        ),
-        var(--bg);
 
-    line-height: 1.7;
-}
+    <meta charset="UTF-8">
 
-.container {
-    width: min(
-        1080px,
-        calc(100% - 40px)
-    );
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    margin: auto;
-}
+    <meta
+        name="description"
+        content="SpaceWise Privacy Policy — learn how SpaceWise handles photos, videos, contacts and files."
+    >
 
-/* =========================
-   HERO
-========================= */
+    <meta
+        name="theme-color"
+        content="#1677ff"
+    >
 
-.hero {
-    padding: 58px 0 42px;
-}
+    <title>
+        SpaceWise — Privacy Policy
+    </title>
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    margin-bottom: 65px;
-}
+    <style>
 
-.brand {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+        :root {
 
-    font-weight: 800;
-    font-size: 20px;
-}
+            --blue: #1677ff;
 
-.brand img {
-    width: 48px;
-    height: 48px;
+            --blue-light: #eaf4ff;
 
-    border-radius: 14px;
+            --ink: #10213b;
 
-    display: block;
+            --text: #40506a;
 
-    box-shadow:
-        0 10px 25px
-        rgba(22, 119, 255, 0.21);
-}
+            --muted: #63728b;
 
-.nav a {
-    color: var(--muted);
+            --background: #f5f9ff;
 
-    text-decoration: none;
+            --white: #ffffff;
 
-    font-size: 14px;
-}
+            --line: #e4ecf7;
 
-.nav a:hover {
-    color: var(--blue);
-}
+            --shadow:
+                0 24px 70px
+                rgba(31, 83, 145, 0.10);
 
-.hero-grid {
-    display: grid;
+        }
 
-    grid-template-columns:
-        1.35fr
-        0.65fr;
 
-    gap: 40px;
+        * {
+            box-sizing: border-box;
+        }
 
-    align-items: end;
-}
 
-.eyebrow {
-    display: inline-block;
+        html {
+            scroll-behavior: smooth;
+        }
 
-    padding: 7px 13px;
 
-    border:
-        1px solid
-        #d5e7ff;
+        body {
 
-    border-radius: 999px;
+            margin: 0;
 
-    background: #ffffff;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "SF Pro Display",
+                "SF Pro Text",
+                "Segoe UI",
+                Arial,
+                sans-serif;
 
-    color: var(--blue);
+            color: var(--ink);
 
-    font-weight: 700;
+            background:
 
-    font-size: 13px;
-}
+                radial-gradient(
+                    circle at 10% 0%,
+                    rgba(90, 167, 255, 0.20),
+                    transparent 30%
+                ),
 
-h1 {
-    font-size:
-        clamp(
-            44px,
-            7vw,
-            72px
-        );
+                radial-gradient(
+                    circle at 90% 5%,
+                    rgba(22, 119, 255, 0.12),
+                    transparent 30%
+                ),
 
-    line-height: 1.02;
+                var(--background);
 
-    letter-spacing: -0.05em;
+            line-height: 1.7;
 
-    margin: 20px 0;
-}
+            -webkit-font-smoothing: antialiased;
 
-.hero p {
-    font-size: 19px;
+        }
 
-    color: var(--muted);
 
-    max-width: 720px;
-}
+        a {
+            transition:
+                color 0.2s ease,
+                opacity 0.2s ease;
+        }
 
-.updated {
-    background: rgba(255, 255, 255, 0.87);
 
-    border:
-        1px solid
-        var(--line);
+        .container {
 
-    border-radius: 24px;
+            width: min(
+                1080px,
+                calc(100% - 40px)
+            );
 
-    padding: 24px;
+            margin: 0 auto;
 
-    box-shadow:
-        0 24px 70px
-        rgba(31, 83, 145, 0.10);
-}
+        }
 
-.updated small {
-    display: block;
 
-    color: var(--muted);
-}
+        /* =========================================
+           HEADER
+        ========================================= */
 
-.updated strong {
-    font-size: 18px;
-}
+        .hero {
 
-/* =========================
-   CONTENT
-========================= */
+            padding:
+                58px
+                0
+                48px;
 
-.content {
-    display: grid;
+        }
 
-    grid-template-columns:
-        225px
-        1fr;
 
-    gap: 42px;
+        .nav {
 
-    padding:
-        25px
-        0
-        80px;
-}
+            display: flex;
 
-/* =========================
-   TABLE OF CONTENTS
-========================= */
+            justify-content: space-between;
 
-.toc {
-    position: sticky;
+            align-items: center;
 
-    top: 24px;
+            margin-bottom: 70px;
 
-    align-self: start;
+        }
 
-    background:
-        rgba(255, 255, 255, 0.72);
 
-    backdrop-filter: blur(14px);
+        .brand {
 
-    border:
-        1px solid
-        var(--line);
+            display: flex;
 
-    border-radius: 22px;
+            align-items: center;
 
-    padding: 18px;
-}
+            gap: 13px;
 
-.toc-title {
-    font-weight: 800;
+            color: var(--ink);
 
-    margin:
-        0
-        0
-        10px;
-}
+            font-size: 21px;
 
-.toc a {
-    display: block;
+            font-weight: 800;
 
-    color: var(--muted);
+            letter-spacing: -0.02em;
 
-    text-decoration: none;
+        }
 
-    font-size: 14px;
 
-    padding: 6px 0;
-}
+        .brand-logo {
 
-.toc a:hover {
-    color: var(--blue);
-}
+            width: 50px;
 
-/* =========================
-   ARTICLE
-========================= */
+            height: 50px;
 
-article {
-    background:
-        rgba(255, 255, 255, 0.91);
+            object-fit: cover;
 
-    border:
-        1px solid
-        var(--line);
+            border-radius: 15px;
 
-    border-radius: 30px;
+            display: block;
 
-    padding: 46px;
+            box-shadow:
+                0 10px 28px
+                rgba(22, 119, 255, 0.22);
 
-    box-shadow:
-        0 24px 70px
-        rgba(31, 83, 145, 0.10);
-}
+        }
 
-section {
-    scroll-margin-top: 30px;
-}
 
-section + section {
-    border-top:
-        1px solid
-        var(--line);
+        .nav-contact {
 
-    margin-top: 36px;
+            display: inline-flex;
 
-    padding-top: 36px;
-}
+            align-items: center;
 
-h2 {
-    font-size: 27px;
+            justify-content: center;
 
-    letter-spacing: -0.02em;
+            padding:
+                9px
+                16px;
 
-    margin:
-        0
-        0
-        12px;
-}
+            border:
+                1px solid
+                var(--line);
 
-p,
-li {
-    color: #40506a;
-}
+            border-radius: 999px;
 
-/* =========================
-   CALLOUT
-========================= */
+            background:
+                rgba(255, 255, 255, 0.75);
 
-.callout {
-    margin: 22px 0;
+            color: var(--muted);
 
-    padding:
-        20px
-        22px;
+            text-decoration: none;
 
-    border-radius: 18px;
+            font-size: 14px;
 
-    background:
-        linear-gradient(
-            135deg,
-            #eef7ff,
-            #f8fbff
-        );
+            font-weight: 600;
 
-    border:
-        1px solid
-        #dbeaff;
-}
+        }
 
-.callout strong {
-    color: var(--blue);
-}
 
-/* =========================
-   PERMISSION GRID
-========================= */
+        .nav-contact:hover {
 
-.grid {
-    display: grid;
+            color: var(--blue);
 
-    grid-template-columns:
-        repeat(
-            2,
-            1fr
-        );
+            border-color:
+                #cfe2ff;
 
-    gap: 12px;
+        }
 
-    margin: 20px 0;
-}
 
-.grid div {
-    background: #ffffff;
+        .hero-grid {
 
-    border:
-        1px solid
-        var(--line);
+            display: grid;
 
-    border-radius: 16px;
+            grid-template-columns:
+                minmax(0, 1.35fr)
+                minmax(260px, 0.65fr);
 
-    padding: 16px;
+            gap: 45px;
 
-    color: #40506a;
-}
+            align-items: end;
 
-.grid b {
-    display: block;
+        }
 
-    color: var(--ink);
 
-    margin-bottom: 3px;
-}
+        .eyebrow {
 
-/* =========================
-   EMAIL
-========================= */
+            display: inline-flex;
 
-.email {
-    color: var(--blue);
+            align-items: center;
 
-    font-weight: 700;
-}
+            padding:
+                7px
+                14px;
 
-/* =========================
-   FOOTER
-========================= */
+            border:
+                1px solid
+                #d5e7ff;
 
-.footer-logo {
-    width: 64px;
+            border-radius: 999px;
 
-    height: 64px;
+            background:
+                rgba(255, 255, 255, 0.85);
 
-    border-radius: 18px;
+            color: var(--blue);
 
-    box-shadow:
-        0 12px 28px
-        rgba(22, 119, 255, 0.19);
+            font-size: 13px;
 
-    margin-bottom: 10px;
-}
+            font-weight: 700;
 
-footer {
-    text-align: center;
+        }
 
-    color: var(--muted);
 
-    padding:
-        25px
-        0
-        55px;
+        h1 {
 
-    font-size: 14px;
-}
+            margin:
+                20px
+                0
+                18px;
 
-/* =========================
-   MOBILE
-========================= */
+            font-size:
+                clamp(
+                    44px,
+                    7vw,
+                    72px
+                );
 
-@media (max-width: 800px) {
+            line-height: 1.02;
 
-    .hero {
-        padding-top: 35px;
-    }
+            letter-spacing: -0.055em;
 
-    .nav {
-        margin-bottom: 42px;
-    }
+        }
 
-    .hero-grid,
-    .content {
-        grid-template-columns: 1fr;
-    }
 
-    .toc {
-        position: static;
-    }
+        .hero-description {
 
-    article {
-        padding:
-            28px
-            22px;
+            max-width: 700px;
 
-        border-radius: 24px;
-    }
+            margin: 0;
 
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
+            color: var(--muted);
+
+            font-size: 19px;
+
+            line-height: 1.65;
+
+        }
+
+
+        .updated-card {
+
+            padding: 26px;
+
+            border:
+                1px solid
+                var(--line);
+
+            border-radius: 24px;
+
+            background:
+                rgba(255, 255, 255, 0.88);
+
+            box-shadow: var(--shadow);
+
+            backdrop-filter:
+                blur(14px);
+
+        }
+
+
+        .updated-card span {
+
+            display: block;
+
+            margin-bottom: 5px;
+
+            color: var(--muted);
+
+            font-size: 13px;
+
+        }
+
+
+        .updated-card strong {
+
+            color: var(--ink);
+
+            font-size: 18px;
+
+        }
+
+
+        /* =========================================
+           CONTENT
+        ========================================= */
+
+        .content {
+
+            display: grid;
+
+            grid-template-columns:
+                225px
+                minmax(0, 1fr);
+
+            gap: 42px;
+
+            padding:
+                25px
+                0
+                80px;
+
+        }
+
+
+        /* =========================================
+           TABLE OF CONTENTS
+        ========================================= */
+
+        .toc {
+
+            position: sticky;
+
+            top: 25px;
+
+            align-self: start;
+
+            padding: 19px;
+
+            border:
+                1px solid
+                var(--line);
+
+            border-radius: 22px;
+
+            background:
+                rgba(255, 255, 255, 0.72);
+
+            backdrop-filter:
+                blur(16px);
+
+        }
+
+
+        .toc-title {
+
+            margin:
+                0
+                0
+                12px;
+
+            color: var(--ink);
+
+            font-size: 15px;
+
+            font-weight: 800;
+
+        }
+
+
+        .toc a {
+
+            display: block;
+
+            padding:
+                6px
+                0;
+
+            color: var(--muted);
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+        }
+
+
+        .toc a:hover {
+
+            color: var(--blue);
+
+        }
+
+
+        /* =========================================
+           POLICY ARTICLE
+        ========================================= */
+
+        article {
+
+            padding: 48px;
+
+            border:
+                1px solid
+                var(--line);
+
+            border-radius: 30px;
+
+            background:
+                rgba(255, 255, 255, 0.91);
+
+            box-shadow: var(--shadow);
+
+        }
+
+
+        section {
+
+            scroll-margin-top: 30px;
+
+        }
+
+
+        section + section {
+
+            margin-top: 38px;
+
+            padding-top: 38px;
+
+            border-top:
+                1px solid
+                var(--line);
+
+        }
+
+
+        h2 {
+
+            margin:
+                0
+                0
+                13px;
+
+            color: var(--ink);
+
+            font-size: 27px;
+
+            line-height: 1.25;
+
+            letter-spacing: -0.025em;
+
+        }
+
+
+        h3 {
+
+            margin:
+                24px
+                0
+                8px;
+
+            font-size: 18px;
+
+        }
+
+
+        p {
+
+            margin:
+                10px
+                0;
+
+            color: var(--text);
+
+        }
+
+
+        ul {
+
+            padding-left: 22px;
+
+            color: var(--text);
+
+        }
+
+
+        li {
+
+            margin:
+                7px
+                0;
+
+        }
+
+
+        /* =========================================
+           CALLOUT
+        ========================================= */
+
+        .callout {
+
+            margin:
+                23px
+                0;
+
+            padding:
+                21px
+                23px;
+
+            border:
+                1px solid
+                #dbeaff;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #eef7ff,
+                    #f8fbff
+                );
+
+        }
+
+
+        .callout strong {
+
+            color: var(--blue);
+
+        }
+
+
+        /* =========================================
+           PERMISSION CARDS
+        ========================================= */
+
+        .permission-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(
+                    2,
+                    minmax(0, 1fr)
+                );
+
+            gap: 13px;
+
+            margin:
+                22px
+                0;
+
+        }
+
+
+        .permission-card {
+
+            padding: 18px;
+
+            border:
+                1px solid
+                var(--line);
+
+            border-radius: 18px;
+
+            background:
+                var(--white);
+
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+
+        }
+
+
+        .permission-card:hover {
+
+            transform:
+                translateY(-2px);
+
+            box-shadow:
+                0 12px 30px
+                rgba(31, 83, 145, 0.08);
+
+        }
+
+
+        .permission-card-title {
+
+            margin-bottom: 4px;
+
+            color: var(--ink);
+
+            font-weight: 750;
+
+        }
+
+
+        .permission-card p {
+
+            margin: 0;
+
+            font-size: 14px;
+
+        }
+
+
+        /* =========================================
+           CONTACT
+        ========================================= */
+
+        .email {
+
+            display: inline-block;
+
+            color: var(--blue);
+
+            font-weight: 700;
+
+            text-decoration: none;
+
+        }
+
+
+        .email:hover {
+
+            text-decoration: underline;
+
+        }
+
+
+        /* =========================================
+           FOOTER
+        ========================================= */
+
+        footer {
+
+            padding:
+                35px
+                0
+                60px;
+
+            color: var(--muted);
+
+            text-align: center;
+
+            font-size: 14px;
+
+        }
+
+
+        .footer-logo {
+
+            width: 68px;
+
+            height: 68px;
+
+            object-fit: cover;
+
+            border-radius: 19px;
+
+            margin-bottom: 12px;
+
+            box-shadow:
+                0 12px 30px
+                rgba(22, 119, 255, 0.20);
+
+        }
+
+
+        .footer-name {
+
+            margin-bottom: 4px;
+
+            color: var(--ink);
+
+            font-size: 16px;
+
+            font-weight: 800;
+
+        }
+
+
+        /* =========================================
+           MOBILE
+        ========================================= */
+
+        @media (
+            max-width: 800px
+        ) {
+
+            .container {
+
+                width:
+                    min(
+                        100% - 28px,
+                        1080px
+                    );
+
+            }
+
+
+            .hero {
+
+                padding:
+                    30px
+                    0
+                    30px;
+
+            }
+
+
+            .nav {
+
+                margin-bottom: 48px;
+
+            }
+
+
+            .brand {
+
+                font-size: 18px;
+
+            }
+
+
+            .brand-logo {
+
+                width: 44px;
+
+                height: 44px;
+
+                border-radius: 13px;
+
+            }
+
+
+            .nav-contact {
+
+                padding:
+                    8px
+                    13px;
+
+                font-size: 13px;
+
+            }
+
+
+            .hero-grid {
+
+                grid-template-columns: 1fr;
+
+                gap: 25px;
+
+            }
+
+
+            h1 {
+
+                font-size:
+                    clamp(
+                        43px,
+                        13vw,
+                        62px
+                    );
+
+            }
+
+
+            .hero-description {
+
+                font-size: 17px;
+
+            }
+
+
+            .content {
+
+                grid-template-columns: 1fr;
+
+                gap: 20px;
+
+                padding-bottom: 50px;
+
+            }
+
+
+            .toc {
+
+                position: static;
+
+                overflow-x: auto;
+
+            }
+
+
+            .toc a {
+
+                display: inline-block;
+
+                margin-right: 15px;
+
+                white-space: nowrap;
+
+            }
+
+
+            .toc-title {
+
+                margin-bottom: 7px;
+
+            }
+
+
+            article {
+
+                padding:
+                    30px
+                    22px;
+
+                border-radius: 24px;
+
+            }
+
+
+            h2 {
+
+                font-size: 24px;
+
+            }
+
+
+            .permission-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .updated-card {
+
+                padding: 21px;
+
+            }
+
+        }
+
+
+    </style>
+
 </head>
+
 
 <body>
 
-<!-- =========================
+
+<!-- =========================================
      HERO
-========================= -->
+========================================= -->
 
 <header class="hero">
 
     <div class="container">
 
+
         <nav class="nav">
 
-            <div class="brand">
 
-                <!-- SpaceWise Logo -->
+            <a
+                class="brand"
+                href="#top"
+                aria-label="SpaceWise home"
+            >
+
                 <img
-                    src="data:image/png;base64,LOGO_DATA"
+                    class="brand-logo"
+                    src="./spacewise-logo.png"
                     alt="SpaceWise app logo"
                 >
 
@@ -488,16 +929,22 @@ footer {
                     SpaceWise
                 </span>
 
-            </div>
+            </a>
 
-            <a href="#contact">
+
+            <a
+                class="nav-contact"
+                href="#contact"
+            >
                 Contact
             </a>
+
 
         </nav>
 
 
         <div class="hero-grid">
+
 
             <div>
 
@@ -505,32 +952,37 @@ footer {
                     Privacy Policy
                 </span>
 
+
                 <h1>
                     Your space.<br>
                     Your control.
                 </h1>
 
-                <p>
-                    SpaceWise helps you optimize device
-                    storage while keeping you in control
-                    of your photos, videos, contacts,
-                    and files.
+
+                <p class="hero-description">
+
+                    SpaceWise helps you optimize
+                    device storage while keeping
+                    you in control of your photos,
+                    videos, contacts, and files.
+
                 </p>
 
             </div>
 
 
-            <div class="updated">
+            <div class="updated-card">
 
-                <small>
+                <span>
                     Last updated
-                </small>
+                </span>
 
                 <strong>
                     August 26, 2026
                 </strong>
 
             </div>
+
 
         </div>
 
@@ -539,20 +991,26 @@ footer {
 </header>
 
 
-<!-- =========================
-     MAIN CONTENT
-========================= -->
 
-<main class="container content">
+<!-- =========================================
+     CONTENT
+========================================= -->
+
+<main
+    id="top"
+    class="container content"
+>
 
 
     <!-- TABLE OF CONTENTS -->
 
     <aside class="toc">
 
+
         <p class="toc-title">
             On this page
         </p>
+
 
         <a href="#approach">
             Our approach
@@ -563,7 +1021,7 @@ footer {
         </a>
 
         <a href="#photos">
-            Photos & videos
+            Photos & Videos
         </a>
 
         <a href="#contacts">
@@ -591,7 +1049,7 @@ footer {
         </a>
 
         <a href="#children">
-            Children
+            Children's privacy
         </a>
 
         <a href="#changes">
@@ -602,7 +1060,9 @@ footer {
             Contact
         </a>
 
+
     </aside>
+
 
 
     <!-- PRIVACY POLICY -->
@@ -610,21 +1070,30 @@ footer {
     <article>
 
 
-        <!-- 1 -->
+        <!-- =================================
+             1. OUR APPROACH
+        ================================== -->
 
         <section id="approach">
+
 
             <h2>
                 1. Our Privacy Approach
             </h2>
 
+
             <p>
+
                 SpaceWise is designed to help you
                 understand, organize, and optimize
-                storage on your device. We use device
-                permissions only to provide the features
-                you choose to use.
+                storage on your device.
+
+                We use device permissions only to
+                provide the features you choose
+                to use.
+
             </p>
+
 
             <div class="callout">
 
@@ -632,109 +1101,153 @@ footer {
                     Privacy first:
                 </strong>
 
-                SpaceWise is designed to perform its
-                core storage analysis and optimization
-                locally on your device where technically
-                possible.
+                SpaceWise is designed to perform
+                its core storage analysis and
+                optimization locally on your device
+                where technically possible.
 
             </div>
 
+
             <p>
-                Your personal photos, videos, contacts,
-                and files are not intentionally uploaded
-                to SpaceWise servers to perform the core
+
+                Your personal photos, videos,
+                contacts, and files are not
+                intentionally uploaded to SpaceWise
+                servers to perform the core
                 optimization features.
+
             </p>
+
 
         </section>
 
 
-        <!-- 2 -->
+
+        <!-- =================================
+             2. PERMISSIONS
+        ================================== -->
 
         <section id="permissions">
+
 
             <h2>
                 2. Permissions
             </h2>
 
+
             <p>
-                SpaceWise may request access to protected
-                device resources depending on the feature
-                you use. You can grant, limit, or revoke
-                these permissions through your device
-                settings.
+
+                SpaceWise may request access to
+                protected device resources depending
+                on the feature you use.
+
+                You can grant, limit, or revoke
+                these permissions through your
+                device settings.
+
             </p>
 
 
-            <div class="grid">
+            <div class="permission-grid">
 
-                <div>
 
-                    <b>
+                <div class="permission-card">
+
+                    <div class="permission-card-title">
                         Photos
-                    </b>
+                    </div>
 
-                    Analyze, optimize, preview,
-                    and manage selected photos
-                    and videos.
+                    <p>
+
+                        Analyze, optimize, preview,
+                        and manage selected photos
+                        and videos.
+
+                    </p>
 
                 </div>
 
 
-                <div>
 
-                    <b>
+                <div class="permission-card">
+
+                    <div class="permission-card-title">
                         Contacts
-                    </b>
+                    </div>
 
-                    Identify duplicate contacts
-                    and help you review selected
-                    duplicates.
+                    <p>
 
-                </div>
+                        Identify duplicate contacts
+                        and help you review selected
+                        duplicates.
 
-
-                <div>
-
-                    <b>
-                        Files & folders
-                    </b>
-
-                    Analyze selected locations,
-                    show details and previews,
-                    and help you manage files.
+                    </p>
 
                 </div>
 
 
-                <div>
 
-                    <b>
-                        Device storage
-                    </b>
+                <div class="permission-card">
 
-                    Calculate storage usage and
-                    show optimization opportunities.
+                    <div class="permission-card-title">
+                        Files & Folders
+                    </div>
+
+                    <p>
+
+                        Analyze selected locations,
+                        show details and previews,
+                        and help you manage files.
+
+                    </p>
 
                 </div>
+
+
+
+                <div class="permission-card">
+
+                    <div class="permission-card-title">
+                        Device Storage
+                    </div>
+
+                    <p>
+
+                        Calculate storage usage and
+                        show optimization opportunities.
+
+                    </p>
+
+                </div>
+
 
             </div>
+
 
         </section>
 
 
-        <!-- 3 -->
+
+        <!-- =================================
+             3. PHOTOS & VIDEOS
+        ================================== -->
 
         <section id="photos">
+
 
             <h2>
                 3. Photos & Videos
             </h2>
 
+
             <p>
-                With your permission, SpaceWise may
-                access your Photos library to:
+
+                With your permission, SpaceWise
+                may access your Photos library to:
+
             </p>
+
 
             <ul>
 
@@ -770,47 +1283,67 @@ footer {
 
             </ul>
 
+
         </section>
 
 
-        <!-- 4 -->
+
+        <!-- =================================
+             4. CONTACTS
+        ================================== -->
 
         <section id="contacts">
+
 
             <h2>
                 4. Contacts
             </h2>
 
-            <p>
-                If you grant Contacts permission,
-                SpaceWise can analyze your contacts
-                to identify potential duplicates and
-                help you review and remove contacts
-                you select.
-            </p>
 
             <p>
-                Contacts access is not required for
-                photo, video, or basic storage-analysis
-                features.
+
+                If you grant Contacts permission,
+                SpaceWise can analyze your contacts
+                to identify potential duplicates
+                and help you review and remove
+                contacts you select.
+
             </p>
+
+
+            <p>
+
+                Contacts access is not required
+                for photo, video, or basic
+                storage-analysis features.
+
+            </p>
+
 
         </section>
 
 
-        <!-- 5 -->
+
+        <!-- =================================
+             5. FILES
+        ================================== -->
 
         <section id="files">
+
 
             <h2>
                 5. Files & Folders
             </h2>
 
+
             <p>
-                When you select a file or folder for
-                SpaceWise to analyze, the app may
-                access the selected content to:
+
+                When you select a file or folder
+                for SpaceWise to analyze, the app
+                may access the selected content to:
+
             </p>
+
 
             <ul>
 
@@ -838,37 +1371,56 @@ footer {
 
             </ul>
 
+
             <p>
-                SpaceWise does not automatically scan
-                folders you have not authorized or
-                selected.
+
+                SpaceWise does not automatically
+                scan folders you have not authorized
+                or selected.
+
             </p>
+
 
         </section>
 
 
-        <!-- 6 -->
+
+        <!-- =================================
+             6. ON DEVICE PROCESSING
+        ================================== -->
 
         <section id="processing">
+
 
             <h2>
                 6. On-Device Processing
             </h2>
 
-            <p>
-                SpaceWise is designed so that core
-                storage analysis, duplicate detection,
-                and media optimization can be performed
-                directly on your device.
-            </p>
 
             <p>
-                For example, duplicate-photo analysis
-                can be performed against media available
-                through your Photos library. Photo and
-                video optimization can be performed
-                locally before a replacement is made.
+
+                SpaceWise is designed so that
+                core storage analysis, duplicate
+                detection, and media optimization
+                can be performed directly on your
+                device.
+
             </p>
+
+
+            <p>
+
+                For example, duplicate-photo
+                analysis can be performed against
+                media available through your
+                Photos library.
+
+                Photo and video optimization
+                can be performed locally before
+                a replacement is made.
+
+            </p>
+
 
             <div class="callout">
 
@@ -876,161 +1428,244 @@ footer {
                     You stay in control.
                 </strong>
 
-                SpaceWise does not need to upload your
-                personal media to perform its core
-                storage optimization features.
+                SpaceWise does not need to upload
+                your personal media to perform its
+                core storage optimization features.
 
             </div>
+
 
         </section>
 
 
-        <!-- 7 -->
+
+        <!-- =================================
+             7. DELETION
+        ================================== -->
 
         <section id="deletion">
+
 
             <h2>
                 7. Deletion & Replacement
             </h2>
 
-            <p>
-                SpaceWise does not automatically delete
-                your personal content without your action.
-            </p>
 
             <p>
-                For optimization features, SpaceWise
-                is designed to create the optimized
-                version before replacing the original
-                wherever technically possible. If an
-                optimization operation fails, the
-                original should remain unchanged.
+
+                SpaceWise does not automatically
+                delete your personal content
+                without your action.
+
             </p>
 
+
             <p>
+
+                For optimization features,
+                SpaceWise is designed to create
+                the optimized version before
+                replacing the original wherever
+                technically possible.
+
+                If an optimization operation fails,
+                the original should remain unchanged.
+
+            </p>
+
+
+            <p>
+
                 Photos and videos deleted through
                 Apple's Photos framework may remain
                 in Recently Deleted according to
-                Apple's system behavior. Permanently
-                removing those items may be required
-                before the associated storage is fully
-                recovered.
+                Apple's system behavior.
+
+                Permanently removing those items
+                may be required before the associated
+                storage is fully recovered.
+
             </p>
+
 
         </section>
 
 
-        <!-- 8 -->
+
+        <!-- =================================
+             8. THIRD PARTY
+        ================================== -->
 
         <section id="thirdparty">
+
 
             <h2>
                 8. Third-Party Services
             </h2>
 
-            <p>
-                SpaceWise may use Apple frameworks
-                and, depending on the version of the
-                application, third-party services for
-                analytics, diagnostics, customer
-                support, subscriptions, or other
-                functionality.
-            </p>
 
             <p>
+
+                SpaceWise may use Apple frameworks
+                and, depending on the version of
+                the application, third-party services
+                for analytics, diagnostics, customer
+                support, subscriptions, or other
+                functionality.
+
+            </p>
+
+
+            <p>
+
                 Third-party services may process
                 information according to their own
-                privacy policies. Your App Store privacy
-                disclosures should reflect the services
-                actually included in the current version
-                of SpaceWise.
+                privacy policies.
+
+                Your App Store privacy disclosures
+                should reflect the services actually
+                included in the current version of
+                SpaceWise.
+
             </p>
+
 
         </section>
 
 
-        <!-- 9 -->
+
+        <!-- =================================
+             9. SECURITY
+        ================================== -->
 
         <section id="security">
+
 
             <h2>
                 9. Security & Retention
             </h2>
 
-            <p>
-                We take reasonable measures to protect
-                information processed by SpaceWise.
-                Core media processing is designed to
-                occur locally on your device, so SpaceWise
-                does not need to maintain copies of your
-                personal media on a server to provide
-                those features.
-            </p>
 
             <p>
-                Local app settings and cached information
-                may remain on your device until removed
-                by the app, cleared where supported, or
-                the app is uninstalled.
+
+                We take reasonable measures to
+                protect information processed by
+                SpaceWise.
+
+                Core media processing is designed
+                to occur locally on your device,
+                so SpaceWise does not need to
+                maintain copies of your personal
+                media on a server to provide
+                those features.
+
             </p>
+
+
+            <p>
+
+                Local app settings and cached
+                information may remain on your
+                device until removed by the app,
+                cleared where supported, or the
+                app is uninstalled.
+
+            </p>
+
 
         </section>
 
 
-        <!-- 10 -->
+
+        <!-- =================================
+             10. CHILDREN
+        ================================== -->
 
         <section id="children">
+
 
             <h2>
                 10. Children's Privacy
             </h2>
 
+
             <p>
-                SpaceWise is not specifically directed
-                toward children under the age required
-                by applicable law. We do not knowingly
-                collect personal information from
-                children through the SpaceWise service.
+
+                SpaceWise is not specifically
+                directed toward children under
+                the age required by applicable law.
+
+                We do not knowingly collect
+                personal information from children
+                through the SpaceWise service.
+
             </p>
+
 
         </section>
 
 
-        <!-- 11 -->
+
+        <!-- =================================
+             11. CHANGES
+        ================================== -->
 
         <section id="changes">
+
 
             <h2>
                 11. Changes to This Policy
             </h2>
 
+
             <p>
-                We may update this Privacy Policy from
-                time to time. When changes are made,
-                we will update the “Last updated” date
+
+                We may update this Privacy Policy
+                from time to time.
+
+                When changes are made, we will
+                update the “Last updated” date
                 at the top of this page.
+
             </p>
+
 
         </section>
 
 
-        <!-- 12 -->
+
+        <!-- =================================
+             12. CONTACT
+        ================================== -->
 
         <section id="contact">
+
 
             <h2>
                 12. Contact Us
             </h2>
 
+
             <p>
-                If you have questions about this Privacy
-                Policy or SpaceWise's privacy practices,
-                contact us at:
+
+                If you have questions about this
+                Privacy Policy or SpaceWise's
+                privacy practices, contact us at:
+
             </p>
 
-            <p class="email">
-                smartcompressors.apps@gmail.com
+
+            <p>
+
+                <a
+                    class="email"
+                    href="mailto:smartcompressors.apps@gmail.com"
+                >
+                    smartcompressors.apps@gmail.com
+                </a>
+
             </p>
+
 
             <p>
 
@@ -1045,31 +1680,49 @@ footer {
 
             </p>
 
+
         </section>
 
+
     </article>
+
 
 </main>
 
 
-<!-- =========================
+
+<!-- =========================================
      FOOTER
-========================= -->
+========================================= -->
 
 <footer>
 
+
     <img
         class="footer-logo"
-        src="data:image/png;base64,LOGO_DATA"
-        alt="SpaceWise"
+        src="./spacewise-logo.png"
+        alt="SpaceWise app logo"
     >
 
+
+    <div class="footer-name">
+        SpaceWise
+    </div>
+
+
     <div>
+        Optimize your storage. Keep what matters.
+    </div>
+
+
+    <div style="margin-top: 8px;">
         © 2026 SpaceWise. All rights reserved.
     </div>
+
 
 </footer>
 
 
 </body>
+
 </html>
